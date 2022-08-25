@@ -1,4 +1,4 @@
-name: trustix.com.br CI
+name: Modules Beave Builder Trustix CI
 on:
   push:
     branches:
