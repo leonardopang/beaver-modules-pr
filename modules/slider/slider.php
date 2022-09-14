@@ -21,11 +21,11 @@ FLBuilder::register_module('SliderModule', array(
     'title'   => __('Configurações gerais', 'fl-builder'),
     'sections'  => array(
       'section_1'       => array( // Section
-        'title'         => __('Calling', 'fl-builder'), // Section Title
+        'title'         => __('Slider', 'fl-builder'), // Section Title
         'fields'        => array( // Section Fields
-          'title_feedback' => array(
-            'type' => 'text',
-            'label' => __('Title Module', 'fl-builder')
+          'slider_itens' => array(
+            'type'          => 'multiple-photos',
+            'label'         => __('Photo Slider', 'fl-builder')
           ),
         ),
       ),

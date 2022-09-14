@@ -3719,7 +3719,7 @@ Object.defineProperty(exports, "__esModule", ({
 
 exports["default"] = function () {
   var slider = (0, _tinySlider.tns)({
-    container: '.feedback-slider',
+    container: '.slider-module-content',
     items: 1,
     gutter: 16,
     controls: true,
@@ -3800,13 +3800,13 @@ var _frontend = __webpack_require__(60);
 
 var _frontend2 = _interopRequireDefault(_frontend);
 
-var _sliderFeedback = __webpack_require__(61);
+var _sliderGallery = __webpack_require__(61);
 
-var _sliderFeedback2 = _interopRequireDefault(_sliderFeedback);
+var _sliderGallery2 = _interopRequireDefault(_sliderGallery);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-(0, _sliderFeedback2.default)();
+(0, _sliderGallery2.default)();
 }();
 /******/ })()
 ;
