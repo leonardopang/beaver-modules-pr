@@ -11,9 +11,11 @@ $subtitle = $settings->subtitle_hero_banner;
           <h2><?= $subtitle ?></h2>
         </div>
         <div class="arrow-down-container">
-          <span class="arrow-down">
-            <?= file_get_contents(get_template_directory_uri() . '/assets/images//svg/icon-arrow-down-black.svg')  ?>
-          </span>
+          <a href="#arrow-down">
+            <span class="arrow-down">
+              <?= file_get_contents(get_template_directory_uri() . '/assets/images//svg/icon-arrow-down-black.svg')  ?>
+            </span>
+          </a>
         </div>
       </div>
       <div class="hero-banner--item hero-banner-form">

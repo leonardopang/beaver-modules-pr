@@ -1,0 +1,22 @@
+.content-text {
+  margin-bottom: 4rem;
+}
+
+.content-text_container {
+  max-width: 815px;
+  margin: 0 auto;
+
+  .text-container {
+    color: #091626;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    p {
+      color: #091626;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+}

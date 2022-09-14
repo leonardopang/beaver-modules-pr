@@ -10,6 +10,8 @@
     h2 {
       color: #27AF00;
       letter-spacing: 1px;
+      font-size: 24px;
+      list-style: 34px;
       font-weight: 700;
     }
   }
@@ -20,6 +22,7 @@
   }
 
   .tns-controls {
+    display: none;
 
     button {
       width: 56px;
@@ -129,4 +132,12 @@
     }
   }
 
+}
+
+@media(min-width: 1232px) {
+  .feedback_container {
+    .tns-controls {
+      display: block;
+    }
+  }
 }

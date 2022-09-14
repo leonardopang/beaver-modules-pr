@@ -20,6 +20,14 @@ module.exports = {
       "./modules/feedback/js/frontendExpanded.js",
     "modules/about/":
       "./modules/about/js/frontendExpanded.js",
+    "modules/content-text/":
+      "./modules/content-text/js/frontendExpanded.js",
+    "modules/hero-banner-single/":
+      "./modules/hero-banner-single/js/frontendExpanded.js",
+    "modules/slider/":
+      "./modules/slider/js/frontendExpanded.js",
+    "modules/title-text/":
+      "./modules/title-text/js/frontendExpanded.js",
   },
   output: {
     filename: "./[name]/js/frontend.js",
