@@ -33,7 +33,7 @@ exports["default"] = function () {
     items: 1,
     gutter: 16,
     controls: true,
-    controlsText: ['<', '>'],
+    controlsText: ['', ''],
     nav: true,
     center: true,
     mouseDrag: true,
