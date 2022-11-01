@@ -37,6 +37,10 @@ FLBuilder::register_module('AboutModule', array(
             'media_buttons' => true,
             'wpautop'       => true
           ),
+          'button_link_about' => array(
+            'type' => 'text',
+            'label' => __('Link Button', 'fl-builder')
+          ),
         ),
       ),
     ),

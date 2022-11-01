@@ -1,6 +1,8 @@
 <?php
 $title = $settings->title_calling;
 $subtitle = $settings->subtitle_calling;
+$button_quote = $settings->button_link_quote;
+$button_drive = $settings->button_link_drive;
 ?>
 <section class="calling">
   <div class="container-wrap">
@@ -11,8 +13,8 @@ $subtitle = $settings->subtitle_calling;
         <h3><?= $subtitle ?></h3>
       </div>
       <div class="button-container">
-        <a href="" class="button button--white">I´m Driver</a>
-        <a href="" class="button button-border--white">Get a Quote</a>
+        <a href="<?= $button_drive ?>" class="button button--white">I´m Driver</a>
+        <a href="<?= $button_quote ?>" class="button button-border--white">Get a Quote</a>
       </div>
     </div>
   </div>

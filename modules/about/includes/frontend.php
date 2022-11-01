@@ -2,6 +2,7 @@
 $title = $settings->title_about;
 $imagem = $settings->image_about_src;
 $text = $settings->text_about;
+$link_button = $settings->button_link_about;
 ?>
 <section class="about">
   <div class="container-wrap">
@@ -16,10 +17,12 @@ $text = $settings->text_about;
         <div class="text-container">
           <p><?= $text ?></p>
         </div>
+        <?php if ($link_button) : ?>
         <div class="button-container">
           <a href="" class="button button-green">about
-            <?= file_get_contents(get_template_directory_uri() . '/assets/images/svg/icon-arrow-right-green.svg') ?></a>
+            <?php get_svg('icon-arrow-right-green') ?></a>
         </div>
+        <?php endif; ?>
       </div>
     </div>
   </div>

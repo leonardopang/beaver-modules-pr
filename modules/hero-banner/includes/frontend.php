@@ -2,7 +2,8 @@
 $title = $settings->title_hero_banner;
 $subtitle = $settings->subtitle_hero_banner;
 ?>
-<section class="hero-banner" style="background-image: url('<?= site_url() ?>/wp-content/uploads/bg-hero-banner.png') ;">
+<section class="hero-banner hero-banner-with-form"
+  style="background-image: url('<?= site_url() ?>/wp-content/uploads/bg-hero-banner.png') ;">
   <div class="container-wrap">
     <div class="hero-banner_container">
       <div class="hero-banner--item hero-banner-content">
@@ -11,9 +12,9 @@ $subtitle = $settings->subtitle_hero_banner;
           <h2><?= $subtitle ?></h2>
         </div>
         <div class="arrow-down-container">
-          <a href="#arrow-down">
+          <a>
             <span class="arrow-down">
-              <?= file_get_contents(get_template_directory_uri() . '/assets/images//svg/icon-arrow-down-black.svg')  ?>
+              <?php get_svg('icon-arrow-down-black') ?>
             </span>
           </a>
         </div>

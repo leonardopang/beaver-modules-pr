@@ -30,6 +30,11 @@
       justify-content: center;
       border-radius: 50%;
       cursor: pointer;
+      transition: transform .5s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 }
@@ -76,8 +81,8 @@
 }
 
 @media(min-width: 1232px) {
-  .hero-banner {
-    height: 800px;
+  .hero-banner-single {
+    height: 650px;
   }
 
   .hero-banner-single_container {

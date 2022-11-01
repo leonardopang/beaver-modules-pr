@@ -29,7 +29,10 @@ FLBuilder::register_module('HeroBannerModule', array(
           ),
           'subtitle_hero_banner' => array(
             'type' => 'text',
-            'label' => __('Sub Título Banner', 'fl-builder')
+            'type'          => 'editor',
+            'label' => __('Sub Título Banner', 'fl-builder'),
+            'media_buttons' => true,
+            'wpautop'       => true
           ),
         ),
       ),

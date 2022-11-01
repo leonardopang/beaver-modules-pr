@@ -35,6 +35,14 @@ FLBuilder::register_module('CallingModule', array(
             'maxlength'       => '255',
             'rows'          => '6'
           ),
+          'button_link_quote' => array(
+            'type' => 'text',
+            'label' => __('Link button quote', 'fl-builder')
+          ),
+          'button_link_drive' => array(
+            'type' => 'text',
+            'label' => __('Link button Drive ', 'fl-builder')
+          ),
         ),
       ),
     ),
