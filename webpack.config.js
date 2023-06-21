@@ -10,22 +10,10 @@ module.exports = {
   entry: {
     "modules/hero-banner/":
       "./modules/hero-banner/js/frontendExpanded.js",
-    "modules/features/":
-      "./modules/features/js/frontendExpanded.js",
-    "modules/service-works/":
-      "./modules/service-works/js/frontendExpanded.js",
-    "modules/calling/":
-      "./modules/calling/js/frontendExpanded.js",
-    "modules/feedback/":
-      "./modules/feedback/js/frontendExpanded.js",
     "modules/about/":
       "./modules/about/js/frontendExpanded.js",
     "modules/content-text/":
       "./modules/content-text/js/frontendExpanded.js",
-    "modules/hero-banner-single/":
-      "./modules/hero-banner-single/js/frontendExpanded.js",
-    "modules/slider/":
-      "./modules/slider/js/frontendExpanded.js",
     "modules/title-text/":
       "./modules/title-text/js/frontendExpanded.js",
   },

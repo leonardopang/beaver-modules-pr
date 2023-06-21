@@ -40,14 +40,8 @@ class DP8_modules_loader
 	static public function load_modules()
 	{
 		require_once DP8_MODULE_DIR . 'modules/hero-banner/hero-banner.php';
-		require_once DP8_MODULE_DIR . 'modules/features/features.php';
-		require_once DP8_MODULE_DIR . 'modules/service-works/service-works.php';
-		require_once DP8_MODULE_DIR . 'modules/calling/calling.php';
-		require_once DP8_MODULE_DIR . 'modules/feedback/feedback.php';
 		require_once DP8_MODULE_DIR . 'modules/about/about.php';
 		require_once DP8_MODULE_DIR . 'modules/content-text/content-text.php';
-		require_once DP8_MODULE_DIR . 'modules/hero-banner-single/hero-banner-single.php';
-		require_once DP8_MODULE_DIR . 'modules/slider/slider.php';
 		require_once DP8_MODULE_DIR . 'modules/title-text/title-text.php';
 	}
 
