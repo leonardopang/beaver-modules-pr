@@ -8,14 +8,27 @@ module.exports = {
   mode: "development",
   context: path.resolve(__dirname, "."),
   entry: {
-    "modules/hero-banner/":
-      "./modules/hero-banner/js/frontendExpanded.js",
-    "modules/about/":
-      "./modules/about/js/frontendExpanded.js",
     "modules/content-text/":
       "./modules/content-text/js/frontendExpanded.js",
     "modules/title-text/":
       "./modules/title-text/js/frontendExpanded.js",
+    "modules/hero-banner/":
+      "./modules/hero-banner/js/frontendExpanded.js",
+    "modules/about/":
+      "./modules/about/js/frontendExpanded.js",
+    "modules/about-company/":
+      "./modules/about-company/js/frontendExpanded.js",
+    "modules/about-product/":
+      "./modules/about-product/js/frontendExpanded.js",
+    "modules/certificacoes/":
+      "./modules/certificacoes/js/frontendExpanded.js",
+    "modules/parceiros/":
+      "./modules/parceiros/js/frontendExpanded.js",
+    "modules/obras/":
+      "./modules/obras/js/frontendExpanded.js",
+    "modules/feedback/":
+      "./modules/feedback/js/frontendExpanded.js",
+
   },
   output: {
     filename: "./[name]/js/frontend.js",

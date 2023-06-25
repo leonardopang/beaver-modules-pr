@@ -41,6 +41,12 @@ class DP8_modules_loader
 	{
 		require_once DP8_MODULE_DIR . 'modules/hero-banner/hero-banner.php';
 		require_once DP8_MODULE_DIR . 'modules/about/about.php';
+		require_once DP8_MODULE_DIR . 'modules/about-company/about-company.php';
+		require_once DP8_MODULE_DIR . 'modules/about-product/about-product.php';
+		require_once DP8_MODULE_DIR . 'modules/certificacoes/certificacoes.php';
+		require_once DP8_MODULE_DIR . 'modules/feedback/feedback.php';
+		require_once DP8_MODULE_DIR . 'modules/obras/obras.php';
+		require_once DP8_MODULE_DIR . 'modules/parceiros/parceiros.php';
 		require_once DP8_MODULE_DIR . 'modules/content-text/content-text.php';
 		require_once DP8_MODULE_DIR . 'modules/title-text/title-text.php';
 	}

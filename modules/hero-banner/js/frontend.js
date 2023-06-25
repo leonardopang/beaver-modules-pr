@@ -1,8 +1,8 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	"use strict";
-/******/ 	var __webpack_modules__ = ([
-/* 0 */,
-/* 1 */
+/******/ 	var __webpack_modules__ = ({
+
+/***/ 5:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -10,7 +10,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /***/ })
-/******/ 	]);
+
+/******/ 	});
 /************************************************************************/
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
@@ -54,7 +55,7 @@ var __webpack_exports__ = {};
 !function() {
 
 
-var _frontend = __webpack_require__(1);
+var _frontend = __webpack_require__(5);
 
 var _frontend2 = _interopRequireDefault(_frontend);
 
