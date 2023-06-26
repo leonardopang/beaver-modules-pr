@@ -7,12 +7,21 @@ export default function () {
     container: '.feedback-slider',
     items: 1,
     gutter: 16,
-    controls: true,
-    controlsText: ['', ''],
+    edgePadding: 16,
+    controls: false,
     nav: true,
-    center: true,
     mouseDrag: true,
     touch: true,
     navPosition: 'bottom',
+    responsive: {
+      992: {
+        items: 2,
+      },
+    },
   })
+
+  const prev = document.querySelector('.feedback-grid .arrows-left')
+  prev.addEventListener('click', () => { slider.goTo('prev') })
+  const next = document.querySelector('.feedback-grid .arrows-right')
+  next.addEventListener('click', () => { slider.goTo('next') })
 }

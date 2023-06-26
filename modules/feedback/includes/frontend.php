@@ -1,3 +1,10 @@
+<?php
+
+$title = $settings->title_feedback;
+$subtitle = $settings->subtitle_feedback;
+$form = $settings->feedback_itens;
+
+?>
 <section class="feedback">
   <div class="container-wrap">
     <div class="feedback-container">
@@ -19,7 +26,27 @@
           <?php endif; ?>
         </div>
         <div class="feedback-grid__item feedback-grid__item-slider">
-          <div class="feedback-slider"></div>
+          <div class="feedback-slider">
+            <?php foreach ($form as $date): ?>
+              <div class="tiny-slider-container">
+                <div class="slider-container">
+                  <div class="content-text">
+                    <p>
+                      <?= $date->feedback_text ?>
+                    </p>
+                  </div>
+                  <div class="info-content">
+                    <span class="nome">
+                      <?= $date->nome_pessoa ?>
+                    </span>
+                    <span class="profissao">
+                      <?= $date->profissao_pessoa ?>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            <?php endforeach; ?>
+          </div>
         </div>
       </div>
     </div>

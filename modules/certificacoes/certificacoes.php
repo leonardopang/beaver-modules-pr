@@ -29,31 +29,56 @@ FLBuilder::register_module(
       'sections' => array(
         'section_1' => array(
           // Section
-          'title' => __('About', 'fl-builder'),
+          'title' => __('Certificados', 'fl-builder'),
           // Section Title
           'fields' => array(
             // Section Fields
-            'title_about' => array(
+            'title_certificados' => array(
               'type' => 'text',
               'label' => __('Title Module', 'fl-builder')
             ),
-            'image_about' => array(
-              'type' => 'photo',
-              'label' => __('Image About', 'fl-builder'),
-            ),
-            'text_about' => array(
-              'type' => 'editor',
-              'label' => __('Text About', 'fl-builder'),
-              'media_buttons' => true,
-              'wpautop' => true
-            ),
-            'button_link_about' => array(
-              'type' => 'text',
-              'label' => __('Link Button', 'fl-builder')
+            'certficados_itens' => array(
+              'type' => 'form',
+              'label' => __('certficados cards', 'fl-builder'),
+              'form' => 'certficados_itens_form',
+              // ID from registered form below
+              'preview_text' => 'nome_certficados',
+              // Name of a field to use for the preview text
+              'multiple' => true,
             ),
           ),
         ),
       ),
+    )
+  )
+);
+
+FLBuilder::register_settings_form(
+  'certficados_itens_form',
+  array(
+    'title' => __('Add certificados', 'fl-builder'),
+    'tabs' => array(
+      'navbar' => array(
+        'title' => __('Certificados Information', 'fl-builder'),
+        'sections' => array(
+          'section_1' => array(
+            // Section
+            'title' => __('Certificados', 'fl-builder'),
+            // Section Title
+            'fields' => array(
+              // Section Fields
+              'feature_certificados' => array(
+                'type' => 'photo',
+                'label' => __('Logo', 'fl-builder'),
+              ),
+              'nome_certificados' => array(
+                'type' => 'text',
+                'label' => __('Title parceiro', 'fl-builder')
+              ),
+            ),
+          ),
+        ),
+      )
     )
   )
 );

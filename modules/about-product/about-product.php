@@ -33,23 +33,27 @@ FLBuilder::register_module(
           // Section Title
           'fields' => array(
             // Section Fields
-            'title_about' => array(
+            'title_about_product' => array(
               'type' => 'text',
               'label' => __('Title Module', 'fl-builder')
             ),
-            'image_about' => array(
-              'type' => 'photo',
-              'label' => __('Image About', 'fl-builder'),
-            ),
-            'text_about' => array(
+            'text_about_product' => array(
               'type' => 'editor',
               'label' => __('Text About', 'fl-builder'),
               'media_buttons' => true,
               'wpautop' => true
             ),
-            'button_link_about' => array(
+            'button_title_about_product' => array(
+              'type' => 'text',
+              'label' => __('Text Button', 'fl-builder')
+            ),
+            'button_link_about_product' => array(
               'type' => 'text',
               'label' => __('Link Button', 'fl-builder')
+            ),
+            'slider_itens_about_product' => array(
+              'type' => 'multiple-photos',
+              'label' => __('Photo Slider', 'fl-builder')
             ),
           ),
         ),
