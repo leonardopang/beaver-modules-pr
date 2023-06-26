@@ -2,7 +2,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 65:
+/***/ 14:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -25,11 +25,11 @@ exports["default"] = function () {
   });
 };
 
-var _tinySlider = __webpack_require__(66);
+var _tinySlider = __webpack_require__(15);
 
 /***/ }),
 
-/***/ 11:
+/***/ 13:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -38,7 +38,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 66:
+/***/ 15:
 /***/ (function(__unused_webpack_module, exports) {
 
 
@@ -3760,11 +3760,11 @@ var __webpack_exports__ = {};
 !function() {
 
 
-var _frontend = __webpack_require__(11);
+var _frontend = __webpack_require__(13);
 
 var _frontend2 = _interopRequireDefault(_frontend);
 
-var _imagens_slider = __webpack_require__(65);
+var _imagens_slider = __webpack_require__(14);
 
 var _imagens_slider2 = _interopRequireDefault(_imagens_slider);
 

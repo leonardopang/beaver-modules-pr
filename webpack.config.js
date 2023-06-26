@@ -14,6 +14,8 @@ module.exports = {
       "./modules/title-text/js/frontendExpanded.js",
     "modules/hero-banner/":
       "./modules/hero-banner/js/frontendExpanded.js",
+    "modules/hero-banner-single/":
+      "./modules/hero-banner-single/js/frontendExpanded.js",
     "modules/about/":
       "./modules/about/js/frontendExpanded.js",
     "modules/about-company/":
@@ -28,6 +30,8 @@ module.exports = {
       "./modules/obras/js/frontendExpanded.js",
     "modules/feedback/":
       "./modules/feedback/js/frontendExpanded.js",
+    "modules/content-grid/":
+      "./modules/content-grid/js/frontendExpanded.js",
 
   },
   output: {

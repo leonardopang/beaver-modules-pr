@@ -2,7 +2,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 7:
+/***/ 9:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -55,7 +55,7 @@ var __webpack_exports__ = {};
 !function() {
 
 
-var _frontend = __webpack_require__(7);
+var _frontend = __webpack_require__(9);
 
 var _frontend2 = _interopRequireDefault(_frontend);
 
