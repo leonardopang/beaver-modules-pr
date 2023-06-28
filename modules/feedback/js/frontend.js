@@ -3725,11 +3725,11 @@ exports["default"] = function () {
   });
 
   var prev = document.querySelector('.feedback-grid .arrows-left');
-  prev.addEventListener('click', function () {
+  if (prev) prev.addEventListener('click', function () {
     slider.goTo('prev');
   });
   var next = document.querySelector('.feedback-grid .arrows-right');
-  next.addEventListener('click', function () {
+  if (next) next.addEventListener('click', function () {
     slider.goTo('next');
   });
 };

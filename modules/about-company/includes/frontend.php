@@ -15,23 +15,47 @@ $form = $settings->about_company_itens;
         </h2>
       </div>
       <div class="about-company-container__grid grid three_grids">
-        <?php foreach ($form as $data): ?>
-          <div class="about-company-container__grid-item">
-            <div class="image-container">
-              <img src="<?= $data->feature_about_company_src ?>" alt="<?= $data->nome_about_company ?>">
-            </div>
-            <div class="content">
-              <h3>
-                <?= $data->nome_about_company ?>
-              </h3>
-              <div class="text">
-                <p>
-                  <?= $data->text_about_company ?>
-                </p>
+        <?php if (wp_is_mobile()): ?>
+          <div class="about-company-container__slider">
+            <?php foreach ($form as $data): ?>
+              <div class="about-company-container-tiny-slider">
+                <div class="about-company-container__grid-item">
+                  <div class="image-container">
+                    <img src="<?= $data->feature_about_company_src ?>" alt="<?= $data->nome_about_company ?>">
+                  </div>
+                  <div class="content">
+                    <h3>
+                      <?= $data->nome_about_company ?>
+                    </h3>
+                    <div class="text">
+                      <p>
+                        <?= $data->text_about_company ?>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <?php endforeach; ?>
+          </div>
+        <?php else: ?>
+          <?php foreach ($form as $data): ?>
+            <div class="about-company-container__grid-item">
+              <div class="image-container">
+                <img src="<?= $data->feature_about_company_src ?>" alt="<?= $data->nome_about_company ?>">
+              </div>
+              <div class="content">
+                <h3>
+                  <?= $data->nome_about_company ?>
+                </h3>
+                <div class="text">
+                  <p>
+                    <?= $data->text_about_company ?>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        <?php endforeach; ?>
+          <?php endforeach; ?>
+        <?php endif; ?>
       </div>
       <div class="button-container">
         <a href="<?= $buttonLink ?>" class="button button-orange"><?= $buttonText ?> <span

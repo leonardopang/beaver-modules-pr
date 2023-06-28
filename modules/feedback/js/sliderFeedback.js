@@ -21,7 +21,7 @@ export default function () {
   })
 
   const prev = document.querySelector('.feedback-grid .arrows-left')
-  prev.addEventListener('click', () => { slider.goTo('prev') })
+  if (prev) prev.addEventListener('click', () => { slider.goTo('prev') })
   const next = document.querySelector('.feedback-grid .arrows-right')
-  next.addEventListener('click', () => { slider.goTo('next') })
+  if (next) next.addEventListener('click', () => { slider.goTo('next') })
 }
