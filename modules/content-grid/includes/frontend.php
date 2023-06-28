@@ -2,6 +2,7 @@
 $title = $settings->content_title;
 $text = $settings->content_text;
 $side = $settings->content_text_side === 'left' ? 'content-left' : 'content-right';
+$sideTitle = $settings->title_side === 'left' ? 'title-left' : 'title-right';
 $gallery = $settings->content_slider;
 $buttonForm = $settings->content_buttons;
 ?>
@@ -9,7 +10,7 @@ $buttonForm = $settings->content_buttons;
   <div class="container-wrap">
     <div class="content-grid-container grid two_grids">
       <div class="content-grid__item content-grid__item-content <?= $side ?>">
-        <div class="title-container">
+        <div class="title-container <?= $sideTitle ?>">
           <h2>
             <?= $title ?>
           </h2>

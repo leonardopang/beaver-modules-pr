@@ -46,6 +46,15 @@ FLBuilder::register_module(
               'type' => 'text',
               'label' => __('Título', 'fl-builder')
             ),
+            'title_side' => array(
+              'type' => 'select',
+              'label' => __('Lado Titulo', 'fl-builder'),
+              'default' => 'left',
+              'options' => array(
+                'left' => __('Esquerda', 'fl-builder'),
+                'right' => __('Direita', 'fl-builder')
+              ),
+            ),
             'content_text' => array(
               'type' => 'editor',
               'label' => __('Text', 'fl-builder'),

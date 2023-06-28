@@ -1,9 +1,13 @@
-.content-grid {
-  padding: 5.188rem 0;
-  border-top: 1px dashed #343434;
+.fl-builder-content {
+  .fl-module {
+    &:first-child .content-grid-container {
+      border-top: none;
+    }
 
-  &:first-child {
-    border-top: none;
+    .content-grid-container {
+      padding: 5.188rem 0;
+      border-top: 1px dashed #343434;
+    }
   }
 }
 
@@ -12,7 +16,7 @@
   gap: 4.438rem;
 
   @media(min-width: 992px) {
-    grid-template-columns: repeat(2, 50%) !important;
+    grid-template-columns: repeat(2, calc(50% - 2.2rem)) !important;
   }
 }
 
@@ -56,6 +60,16 @@
 
     &.content-right {
       order: 2;
+    }
+
+    .title-container {
+      &.title-left {
+        text-align: left !important;
+      }
+
+      &.title-right {
+        text-align: right !important;
+      }
     }
   }
 }
