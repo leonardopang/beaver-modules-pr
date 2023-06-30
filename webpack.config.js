@@ -32,6 +32,8 @@ module.exports = {
       "./modules/feedback/js/frontendExpanded.js",
     "modules/content-grid/":
       "./modules/content-grid/js/frontendExpanded.js",
+    "modules/produtos-grid/":
+      "./modules/produtos-grid/js/frontendExpanded.js",
 
   },
   output: {

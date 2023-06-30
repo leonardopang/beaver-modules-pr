@@ -51,6 +51,7 @@ class DP8_modules_loader
 		require_once DP8_MODULE_DIR . 'modules/content-text/content-text.php';
 		require_once DP8_MODULE_DIR . 'modules/title-text/title-text.php';
 		require_once DP8_MODULE_DIR . 'modules/content-grid/content-grid.php';
+		require_once DP8_MODULE_DIR . 'modules/produtos-grid/produtos-grid.php';
 	}
 
 	/**

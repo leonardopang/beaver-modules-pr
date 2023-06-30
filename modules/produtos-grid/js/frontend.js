@@ -12,44 +12,8 @@
 /* 8 */,
 /* 9 */,
 /* 10 */,
-/* 11 */
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-/* 12 */
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-
-exports["default"] = function () {
-  var tamanho = document.body.clientWidth;
-
-  if (tamanho <= 480) {
-    var slider = (0, _tinySlider.tns)({
-      container: '.about-company-container__slider',
-      items: 1,
-      gutter: 16,
-      controls: false,
-      nav: true,
-      center: true,
-      mouseDrag: true,
-      touch: true,
-      navPosition: 'bottom'
-    });
-  }
-};
-
-var _tinySlider = __webpack_require__(13);
-
-/***/ }),
+/* 11 */,
+/* 12 */,
 /* 13 */
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -3730,6 +3694,64 @@ function jsTransform(element, attr, prefix, postfix, to, duration, callback) {
   }
 }
 
+/***/ }),
+/* 55 */,
+/* 56 */,
+/* 57 */,
+/* 58 */,
+/* 59 */,
+/* 60 */,
+/* 61 */,
+/* 62 */,
+/* 63 */,
+/* 64 */,
+/* 65 */,
+/* 66 */,
+/* 67 */,
+/* 68 */,
+/* 69 */,
+/* 70 */,
+/* 71 */,
+/* 72 */,
+/* 73 */,
+/* 74 */,
+/* 75 */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+/* 76 */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+
+Object.defineProperty(exports, "__esModule", ({
+  value: true
+}));
+
+exports["default"] = function () {
+  var tamanho = document.body.clientWidth;
+
+  if (tamanho <= 480) {
+    var slider = (0, _tinySlider.tns)({
+      container: '.obras-container__posts-slider',
+      items: 1,
+      gutter: 16,
+      controls: false,
+      nav: true,
+      center: true,
+      mouseDrag: true,
+      touch: true,
+      navPosition: 'bottom'
+    });
+  }
+};
+
+var _tinySlider = __webpack_require__(13);
+
 /***/ })
 /******/ 	]);
 /************************************************************************/
@@ -3792,11 +3814,11 @@ var __webpack_exports__ = {};
 !function() {
 
 
-var _frontend = __webpack_require__(11);
+var _frontend = __webpack_require__(75);
 
 var _frontend2 = _interopRequireDefault(_frontend);
 
-var _slider = __webpack_require__(12);
+var _slider = __webpack_require__(76);
 
 var _slider2 = _interopRequireDefault(_slider);
 
