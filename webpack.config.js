@@ -34,6 +34,8 @@ module.exports = {
       "./modules/content-grid/js/frontendExpanded.js",
     "modules/produtos-grid/":
       "./modules/produtos-grid/js/frontendExpanded.js",
+    "modules/obras-category/":
+      "./modules/obras-category/js/frontendExpanded.js",
 
   },
   output: {
